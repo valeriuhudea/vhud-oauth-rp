@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="./index.css" />
+  </head>
+  <body>
+    <header role="banner">
+      Oauth2.0 Multi RP  
+    </header>
+    
+    <br>
+    
+    <main>
+      Available Authentication with following Providers:
+      <a href="/auth/okta-oidc">Login with Okta</a>
+      <a href="/auth/google-oidc">Login with Google</a>
+      <a href="/auth/azure-oidc">Login with Microsoft</a>
+      <a href="/auth/okta-oidc">Login with 3rd Party</a>
+
+      <p>Add IDPs via the API /config</p>
+      <p>Supported Methods:</p>
+      <p>GET for list of available idp configs</p>
+      <p>POST to create a new IDP config and route</p>
+      <p>PUT for any config updates/changes</p>
+
+    </main>
+
+    <br>
+
+    <footer role="contentinfo">
+      Oauth Multi RP MicroService
+    </footer>
+  </body>
+</html>
+

@@ -1,0 +1,54 @@
+{
+  "configs": {
+    "azure-oidc": {
+      "name": "azure-oidc",
+      "issuer": "https://login.microsoftonline.com/f96d9466-e85a-48ae-8897-a0d251906529/v2.0",
+      "authorization_endpoint": "https://login.microsoftonline.com/f96d9466-e85a-48ae-8897-a0d251906529/oauth2/v2.0/authorize",
+      "token_endpoint": "https://login.microsoftonline.com/f96d9466-e85a-48ae-8897-a0d251906529/oauth2/v2.0/token",
+      "userinfo_endpoint": "https://login.microsoftonline.com/f96d9466-e85a-48ae-8897-a0d251906529/oauth2/v2.0/logout",
+      "end_session_endpoint": "https://login.microsoftonline.com/f96d9466-e85a-48ae-8897-a0d251906529/oauth2/v2.0/logout",
+      "client_id": "ADD AZURE CLIENT_ID",
+      "client_secret": "ADD AZURE CLIENT_SECRET"
+    },
+    "okta-oidc": {
+      "name": "okta-oidc",
+      "issuer": "https://hudea.okta.com/oauth2/default",
+      "authorization_endpoint": "https://hudea.okta.com/oauth2/default/v1/authorize",
+      "token_endpoint": "https://hudea.okta.com/oauth2/default/v1/token",
+      "userinfo_endpoint": "https://hudea.okta.com/oauth2/default/v1/userinfo",
+      "end_session_endpoint": "https://hudea.okta.com/oauth2/default/v1/logout",
+      "client_id": "ADD OKTA CLIENT_ID",
+      "client_secret": "ADD OKTA CLIENT_SECRET"
+    },
+    "google-oidc": {
+      "name": "google-oidc",
+      "issuer": "https://accounts.google.com",
+      "authorization_endpoint": "https://accounts.google.com/o/oauth2/v2/auth",
+      "token_endpoint": "https://www.googleapis.com/oauth2/v4/token",
+      "userinfo_endpoint": "https://www.googleapis.com/oauth2/v3/userinfo",
+      "end_session_endpoint": "https://www.google.com/accounts/Logout?continue=https://appengine.google.com/_ah/logout",
+      "client_id": "ADD GOOGLE CLIENT_ID",
+      "client_secret": "ADD GOOLE CLIENT_SECRET"
+    },
+    "okta3-oidc": {
+      "name": "okta3-oidc",
+      "issuer": "111https://accounts.google.com",
+      "authorization_endpoint": "https://accounts.google.com/o/oauth2/v2/auth",
+      "token_endpoint": "https://www.googleapis.com/oauth2/v4/token",
+      "userinfo_endpoint": "https://www.googleapis.com/oauth2/v3/userinfo",
+      "end_session_endpoint": "https://dev-570621.okta.com/oauth2/default/v1/logout",
+      "client_id": "CLIENT_ID",
+      "client_secret": "CLIENT_SECRET"
+    },
+    "okta5-oidc": {
+      "name": "okta5-oidc",
+      "issuer": "https://hudea.okta.com/oauth2/default",
+      "authorization_endpoint": "https://hudea.okta.com/oauth2/default/v1/authorize",
+      "token_endpoint": "https://hudea.okta.com/oauth2/default/v1/token",
+      "userinfo_endpoint": "https://hudea.okta.com/oauth2/default/v1/userinfo",
+      "end_session_endpoint": "https://hudea.okta.com/oauth2/default/v1/logout",
+      "client_id": "CLIENT_ID",
+      "client_secret": "CLIENT_SECRET"
+    }
+  }
+}

@@ -1,6 +1,6 @@
-# oauth server for dynamic Oauth2 Idp registration
-# Currently tested with Azure, Okta, Google, Auth0, PingIdentity
-# Uses Local JSON Data Store from data.json
+# oauth server for dynamic oauth2 IDP registration
+## Currently tested with Azure, Okta, Google, Auth0, PingIdentity
+### Uses Local JSON Data Store from data.json
 
 npm install
 npm run / yarn run
